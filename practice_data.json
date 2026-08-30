@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-30T15:40:00Z",
+  "rounds_logged": 5,
+  "players_with_data": 5,
+  "pending_note": "1 card (bipinbajaj PDF) could not be read yet",
+  "data_quality_note": "First real batch \u2014 Tee-shot codes weren't recorded consistently with the F/L/R/S/P codebook, so Fairway%/Miss tendency are omitted. GIR%/U&D% have small sample sizes per player (n shown) \u2014 read with caution.",
+  "players": [
+    {
+      "name": "Anmol",
+      "rounds": 1,
+      "holes": 16,
+      "avg_gross_per_hole": 4.44,
+      "gir_pct": 75,
+      "gir_n": 4,
+      "ud_pct": 100,
+      "ud_n": 4,
+      "putts_per_18": 27.0
+    },
+    {
+      "name": "Samridh (Sam)",
+      "rounds": 1,
+      "holes": 13,
+      "avg_gross_per_hole": 4.69,
+      "gir_pct": 100,
+      "gir_n": 5,
+      "ud_pct": 100,
+      "ud_n": 1,
+      "putts_per_18": 37.5
+    },
+    {
+      "name": "Rohan",
+      "rounds": 1,
+      "holes": 16,
+      "avg_gross_per_hole": 4.94,
+      "gir_pct": 50,
+      "gir_n": 14,
+      "ud_pct": 14,
+      "ud_n": 7,
+      "putts_per_18": 33.2
+    },
+    {
+      "name": "Deepit Singh",
+      "rounds": 1,
+      "holes": 18,
+      "avg_gross_per_hole": 5.06,
+      "gir_pct": 33,
+      "gir_n": 18,
+      "ud_pct": 21,
+      "ud_n": 14,
+      "putts_per_18": 32.0
+    },
+    {
+      "name": "Himanshu",
+      "rounds": 1,
+      "holes": 15,
+      "avg_gross_per_hole": 5.07,
+      "gir_pct": 100,
+      "gir_n": 2,
+      "ud_pct": 100,
+      "ud_n": 3,
+      "putts_per_18": 38.0
+    }
+  ],
+  "partnerships": [
+    {
+      "pairing": "Rohan & Samridh (Sam)",
+      "games": 1,
+      "format": "Fourball",
+      "note": "Both submitted their own card for the same round (Aug 30) \u2014 Sam's card cleanly logged who counted each hole."
+    }
+  ],
+  "partnership_note": "Only appears once two players have logged a round together. Deepit & Sukhbir also played together, but Deepit's Fmt column was unreadable from the photo (flagged for review) so who-counted-what isn't in yet."
+}
