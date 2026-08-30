@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-30T15:40:00Z",
-  "rounds_logged": 5,
-  "players_with_data": 5,
-  "pending_note": "1 card (bipinbajaj PDF) could not be read yet",
-  "data_quality_note": "First real batch \u2014 Tee-shot codes weren't recorded consistently with the F/L/R/S/P codebook, so Fairway%/Miss tendency are omitted. GIR%/U&D% have small sample sizes per player (n shown) \u2014 read with caution.",
+  "generated_at": "2026-09-01T09:00:00Z",
+  "rounds_logged": 6,
+  "players_with_data": 6,
+  "pending_note": null,
+  "data_quality_note": "Bipin's card (Sep 1) is the first to use the F/L/R/S/P Tee codebook consistently \u2014 Fairway%/Miss tendency now shown for players with enough standard-coded tee shots (8+). Other players' Tee data is still non-standard from the first batch, so those columns show as \u2014 until cleaner data comes in for them too. GIR%/U&D% sample sizes (n) are shown \u2014 read with caution when small.",
   "players": [
     {
       "name": "Anmol",
@@ -17,6 +17,20 @@
       "putts_per_18": 27.0
     },
     {
+      "name": "Bipin Bajaj",
+      "rounds": 1,
+      "holes": 18,
+      "avg_gross_per_hole": 4.5,
+      "gir_pct": 56,
+      "gir_n": 18,
+      "ud_pct": 75,
+      "ud_n": 4,
+      "putts_per_18": 33.0,
+      "fw_pct": 71,
+      "fw_n": 14,
+      "miss_tendency": "Right"
+    },
+    {
       "name": "Samridh (Sam)",
       "rounds": 1,
       "holes": 13,
@@ -25,7 +39,10 @@
       "gir_n": 5,
       "ud_pct": 100,
       "ud_n": 1,
-      "putts_per_18": 37.5
+      "putts_per_18": 37.5,
+      "fw_pct": 44,
+      "fw_n": 9,
+      "miss_tendency": "Left"
     },
     {
       "name": "Rohan",
