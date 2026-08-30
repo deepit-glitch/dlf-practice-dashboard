@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T10:30:00Z",
+  "generated_at": "2026-09-01T12:00:00Z",
   "rounds_logged": 6,
   "players_with_data": 6,
   "pending_note": null,
-  "data_quality_note": "GIR and Fairway-hit are now strict: a hole only counts as a GIR/fairway hit if explicitly marked Y/F. Blank cells, checkmarks, and non-standard notes (e.g. \u2018Rough\u2019, \u2018G\u2019) all count as misses. This is a firmer bar than the first pass \u2014 some players' GIR%/FW% dropped as a result, since several early cards left cells blank rather than marking N. Miss tendency (direction) is only computed from explicit L/R/S/P codes, so it's blank for players whose cards didn't use the codebook consistently.",
+  "data_quality_note": "Fixed: Deepit's card was re-read from a clearer photo after his original (rotated) photo caused Tee to be mistakenly left blank for all 18 holes \u2014 corrected now. Also: Tee columns marked with 'Y' (not just 'F') now count as fairway hits, since several players use Y/N shorthand instead of the F/L/R/S/P codebook. GIR and Fairway-hit still require an explicit positive mark (Y or F) \u2014 blanks and other notes count as misses.",
   "players": [
     {
       "name": "Anmol",
@@ -12,8 +12,8 @@
       "avg_gross_per_hole": 4.44,
       "gir_hit": 3,
       "gir_pct": 19,
-      "fw_hit": 0,
-      "fw_pct": 0,
+      "fw_hit": 6,
+      "fw_pct": 38,
       "ud_pct": 100,
       "ud_n": 4,
       "putts_per_18": 27.0,
@@ -70,13 +70,13 @@
       "rounds": 1,
       "holes": 18,
       "avg_gross_per_hole": 5.06,
-      "gir_hit": 6,
-      "gir_pct": 33,
-      "fw_hit": 0,
-      "fw_pct": 0,
-      "ud_pct": 21,
-      "ud_n": 14,
-      "putts_per_18": 32.0,
+      "gir_hit": 5,
+      "gir_pct": 28,
+      "fw_hit": 7,
+      "fw_pct": 39,
+      "ud_pct": 10,
+      "ud_n": 10,
+      "putts_per_18": 34.0,
       "miss_tendency": null,
       "miss_n": 0
     },
@@ -87,8 +87,8 @@
       "avg_gross_per_hole": 5.07,
       "gir_hit": 2,
       "gir_pct": 13,
-      "fw_hit": 0,
-      "fw_pct": 0,
+      "fw_hit": 3,
+      "fw_pct": 20,
       "ud_pct": 100,
       "ud_n": 3,
       "putts_per_18": 38.0,
@@ -102,7 +102,13 @@
       "games": 1,
       "format": "Fourball",
       "note": "Both submitted their own card for the same round (Aug 30) \u2014 Sam's card cleanly logged who counted each hole."
+    },
+    {
+      "pairing": "Deepit Singh & Sukhbir Singh",
+      "games": 1,
+      "format": "Fourball",
+      "note": "Deepit's card cleanly logs who counted each hole (9 holes each) \u2014 Sukhbir hasn't submitted his own card yet, so this is one-sided data."
     }
   ],
-  "partnership_note": "Only appears once two players have logged a round together. Deepit & Sukhbir also played together, but Deepit's Fmt column was unreadable from the photo (flagged for review) so who-counted-what isn't in yet."
+  "partnership_note": "Only appears once at least one player has logged a round with a named partner."
 }
