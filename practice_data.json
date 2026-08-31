@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T12:00:00Z",
+  "generated_at": "2026-09-01T13:30:00Z",
   "rounds_logged": 6,
   "players_with_data": 6,
   "pending_note": null,
-  "data_quality_note": "Fixed: Deepit's card was re-read from a clearer photo after his original (rotated) photo caused Tee to be mistakenly left blank for all 18 holes \u2014 corrected now. Also: Tee columns marked with 'Y' (not just 'F') now count as fairway hits, since several players use Y/N shorthand instead of the F/L/R/S/P codebook. GIR and Fairway-hit still require an explicit positive mark (Y or F) \u2014 blanks and other notes count as misses.",
+  "data_quality_note": "Fixed: Deepit's card was re-read from a clearer photo after his original (rotated) photo caused Tee to be mistakenly left blank for all 18 holes \u2014 corrected now. Tee columns marked 'Y' (not just 'F') count as fairway hits. GIR/Fairway-hit require an explicit positive mark \u2014 blanks and other notes count as misses.",
   "players": [
     {
       "name": "Anmol",
@@ -110,5 +110,872 @@
       "note": "Deepit's card cleanly logs who counted each hole (9 holes each) \u2014 Sukhbir hasn't submitted his own card yet, so this is one-sided data."
     }
   ],
-  "partnership_note": "Only appears once at least one player has logged a round with a named partner."
+  "partnership_note": "Only appears once at least one player has logged a round with a named partner.",
+  "hole_performance": {
+    "course": {
+      "1": {
+        "par": 4,
+        "si": 17
+      },
+      "2": {
+        "par": 4,
+        "si": 11
+      },
+      "3": {
+        "par": 3,
+        "si": 7
+      },
+      "4": {
+        "par": 5,
+        "si": 13
+      },
+      "5": {
+        "par": 3,
+        "si": 5
+      },
+      "6": {
+        "par": 4,
+        "si": 1
+      },
+      "7": {
+        "par": 4,
+        "si": 15
+      },
+      "8": {
+        "par": 5,
+        "si": 3
+      },
+      "9": {
+        "par": 4,
+        "si": 9
+      },
+      "10": {
+        "par": 4,
+        "si": 12
+      },
+      "11": {
+        "par": 4,
+        "si": 16
+      },
+      "12": {
+        "par": 3,
+        "si": 18
+      },
+      "13": {
+        "par": 4,
+        "si": 14
+      },
+      "14": {
+        "par": 4,
+        "si": 2
+      },
+      "15": {
+        "par": 5,
+        "si": 6
+      },
+      "16": {
+        "par": 3,
+        "si": 10
+      },
+      "17": {
+        "par": 4,
+        "si": 4
+      },
+      "18": {
+        "par": 5,
+        "si": 8
+      }
+    },
+    "handicaps": {
+      "Deepit Singh": 7,
+      "Bipin Bajaj": 11,
+      "Anmol": 10,
+      "Samridh (Sam)": 11,
+      "Rohan": 12,
+      "Sukhbir Singh": 4
+    },
+    "players": {
+      "Rohan": {
+        "1": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 7,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 2,
+          "par": 3,
+          "vs_par": -1,
+          "net": 1,
+          "net_vs_par": -2,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": 2,
+          "net_vs_par": -2,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        }
+      },
+      "Anmol": {
+        "1": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 2,
+          "par": 3,
+          "vs_par": -1,
+          "net": 1,
+          "net_vs_par": -2,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        }
+      },
+      "Himanshu": {
+        "1": {
+          "gross": 8,
+          "par": 4,
+          "vs_par": 4,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "2": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "3": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "4": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "6": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "7": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "8": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "9": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "10": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "11": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "13": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "15": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        }
+      },
+      "Samridh (Sam)": {
+        "1": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 6,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        }
+      },
+      "Bipin Bajaj": {
+        "1": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 7,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "17": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "18": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 1,
+          "has_hcp": true
+        }
+      },
+      "Deepit Singh": {
+        "1": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 2,
+          "par": 3,
+          "vs_par": -1,
+          "net": 1,
+          "net_vs_par": -2,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 7,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 2,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 7,
+          "par": 4,
+          "vs_par": 3,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "17": {
+          "gross": 7,
+          "par": 4,
+          "vs_par": 3,
+          "net": 6,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "18": {
+          "gross": 8,
+          "par": 5,
+          "vs_par": 3,
+          "net": 8,
+          "net_vs_par": 3,
+          "has_hcp": true
+        }
+      }
+    }
+  },
+  "hole_performance_note": "Net = gross minus 1 stroke on holes where Stroke Index \u2264 handicap (standard allocation). Handicaps are from the 2025 Season 4 roster \u2014 update if anyone's has since changed, and note Himanshu isn't on that roster (shown as vs-par only, not handicap-adjusted). Each cell is currently just one round \u2014 treat as an early signal, not a proven pattern, until repeat rounds confirm it."
 }
