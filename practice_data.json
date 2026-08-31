@@ -1145,5 +1145,5 @@
       }
     }
   },
-  "hole_performance_note": "Net = gross minus 1 stroke on holes where Stroke Index \u2264 handicap (standard allocation). Handicaps are from the 2025 Season 4 roster \u2014 update if anyone's has since changed, and note Himanshu isn't on that roster (shown as vs-par only, not handicap-adjusted). Each cell is currently just one round \u2014 treat as an early signal, not a proven pattern, until repeat rounds confirm it."
+  "hole_performance_note": "Grid shows gross score vs. par per hole. Each cell is currently just one round per player \u2014 treat as an early signal, not a proven pattern, until repeat rounds confirm it. Handicap-adjusted net scoring data is still collected in the tracker for future use, just not shown here by default."
 }
