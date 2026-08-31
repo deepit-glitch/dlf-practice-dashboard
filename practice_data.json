@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T13:30:00Z",
-  "rounds_logged": 6,
-  "players_with_data": 6,
+  "generated_at": "2026-09-01T15:00:00Z",
+  "rounds_logged": 7,
+  "players_with_data": 7,
   "pending_note": null,
-  "data_quality_note": "Fixed: Deepit's card was re-read from a clearer photo after his original (rotated) photo caused Tee to be mistakenly left blank for all 18 holes \u2014 corrected now. Tee columns marked 'Y' (not just 'F') count as fairway hits. GIR/Fairway-hit require an explicit positive mark \u2014 blanks and other notes count as misses.",
+  "data_quality_note": "Fairways Hit now excludes par-3 holes (3, 5, 12, 16 on this course) entirely \u2014 the tee shot on a par 3 is the GIR attempt, there's no separate fairway to hit, so those holes are no longer counted as attempts (hit or miss). This corrected several players' Fairway% upward, since blank Tee cells on par-3s had been wrongly counted as misses before. Sukhbir Singh's card added \u2014 his and Deepit's Fourball round from Aug 30 is now visible from both sides.",
   "players": [
     {
       "name": "Anmol",
@@ -13,7 +13,8 @@
       "gir_hit": 3,
       "gir_pct": 19,
       "fw_hit": 6,
-      "fw_pct": 38,
+      "fw_eligible": 12,
+      "fw_pct": 50,
       "ud_pct": 100,
       "ud_n": 4,
       "putts_per_18": 27.0,
@@ -28,7 +29,8 @@
       "gir_hit": 10,
       "gir_pct": 56,
       "fw_hit": 10,
-      "fw_pct": 56,
+      "fw_eligible": 14,
+      "fw_pct": 71,
       "ud_pct": 75,
       "ud_n": 4,
       "putts_per_18": 33.0,
@@ -43,12 +45,29 @@
       "gir_hit": 5,
       "gir_pct": 38,
       "fw_hit": 4,
-      "fw_pct": 31,
+      "fw_eligible": 10,
+      "fw_pct": 40,
       "ud_pct": 100,
       "ud_n": 1,
       "putts_per_18": 37.5,
       "miss_tendency": "Left",
-      "miss_n": 5
+      "miss_n": 4
+    },
+    {
+      "name": "Sukhbir Singh",
+      "rounds": 1,
+      "holes": 18,
+      "avg_gross_per_hole": 4.89,
+      "gir_hit": 6,
+      "gir_pct": 33,
+      "fw_hit": 9,
+      "fw_eligible": 14,
+      "fw_pct": 64,
+      "ud_pct": 8,
+      "ud_n": 12,
+      "putts_per_18": 36.0,
+      "miss_tendency": null,
+      "miss_n": 0
     },
     {
       "name": "Rohan",
@@ -58,7 +77,8 @@
       "gir_hit": 7,
       "gir_pct": 44,
       "fw_hit": 3,
-      "fw_pct": 19,
+      "fw_eligible": 12,
+      "fw_pct": 25,
       "ud_pct": 14,
       "ud_n": 7,
       "putts_per_18": 33.2,
@@ -73,7 +93,8 @@
       "gir_hit": 5,
       "gir_pct": 28,
       "fw_hit": 7,
-      "fw_pct": 39,
+      "fw_eligible": 14,
+      "fw_pct": 50,
       "ud_pct": 10,
       "ud_n": 10,
       "putts_per_18": 34.0,
@@ -88,7 +109,8 @@
       "gir_hit": 2,
       "gir_pct": 13,
       "fw_hit": 3,
-      "fw_pct": 20,
+      "fw_eligible": 12,
+      "fw_pct": 25,
       "ud_pct": 100,
       "ud_n": 3,
       "putts_per_18": 38.0,
@@ -107,7 +129,7 @@
       "pairing": "Deepit Singh & Sukhbir Singh",
       "games": 1,
       "format": "Fourball",
-      "note": "Deepit's card cleanly logs who counted each hole (9 holes each) \u2014 Sukhbir hasn't submitted his own card yet, so this is one-sided data."
+      "note": "Both submitted their own card for the same round (Aug 30). Sukhbir's card didn't include a Fmt column, so who-counted-what per hole isn't available, but both players' individual stats are now complete."
     }
   ],
   "partnership_note": "Only appears once at least one player has logged a round with a named partner.",
@@ -972,6 +994,152 @@
           "vs_par": 3,
           "net": 8,
           "net_vs_par": 3,
+          "has_hcp": true
+        }
+      },
+      "Sukhbir Singh": {
+        "1": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "2": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "3": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "4": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": 6,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "5": {
+          "gross": 5,
+          "par": 3,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "7": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "8": {
+          "gross": 7,
+          "par": 5,
+          "vs_par": 2,
+          "net": 6,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "10": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "11": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "13": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "15": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 5,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 5,
+          "par": 3,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 2,
+          "has_hcp": true
+        },
+        "17": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "18": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 5,
+          "net_vs_par": 0,
           "has_hcp": true
         }
       }
