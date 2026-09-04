@@ -1,23 +1,39 @@
 {
-  "generated_at": "2026-09-01T15:00:00Z",
-  "rounds_logged": 7,
-  "players_with_data": 7,
+  "generated_at": "2026-09-04T13:00:00Z",
+  "rounds_logged": 11,
+  "players_with_data": 9,
   "pending_note": null,
-  "data_quality_note": "Fairways Hit now excludes par-3 holes (3, 5, 12, 16 on this course) entirely \u2014 the tee shot on a par 3 is the GIR attempt, there's no separate fairway to hit, so those holes are no longer counted as attempts (hit or miss). This corrected several players' Fairway% upward, since blank Tee cells on par-3s had been wrongly counted as misses before. Sukhbir Singh's card added \u2014 his and Deepit's Fourball round from Aug 30 is now visible from both sides.",
+  "data_quality_note": "Added: Naman Aggarwal and Aamer (both new to the tracker), plus second rounds for Anmol and Samridh (Sam). Aamer and Aamer's new-player status means no handicap is on file for him yet (like Himanshu) \u2014 shown as vs-par only where relevant. Checkmark/X notation on some cards is mapped to Y/N. Fairways Hit still excludes par-3 holes (3, 5, 12, 16) entirely.",
   "players": [
     {
       "name": "Anmol",
+      "rounds": 2,
+      "holes": 34,
+      "avg_gross_per_hole": 4.32,
+      "gir_hit": 12,
+      "gir_pct": 35,
+      "fw_hit": 15,
+      "fw_eligible": 26,
+      "fw_pct": 58,
+      "ud_pct": 89,
+      "ud_n": 9,
+      "putts_per_18": 27.5,
+      "miss_tendency": null,
+      "miss_n": 0
+    },
+    {
+      "name": "Aamer",
       "rounds": 1,
-      "holes": 16,
-      "avg_gross_per_hole": 4.44,
-      "gir_hit": 3,
-      "gir_pct": 19,
-      "fw_hit": 6,
-      "fw_eligible": 12,
-      "fw_pct": 50,
-      "ud_pct": 100,
-      "ud_n": 4,
-      "putts_per_18": 27.0,
+      "holes": 18,
+      "avg_gross_per_hole": 4.33,
+      "gir_hit": 8,
+      "gir_pct": 44,
+      "fw_hit": 9,
+      "fw_eligible": 14,
+      "fw_pct": 64,
+      "ud_pct": 29,
+      "ud_n": 7,
+      "putts_per_18": 36.0,
       "miss_tendency": null,
       "miss_n": 0
     },
@@ -39,19 +55,35 @@
     },
     {
       "name": "Samridh (Sam)",
-      "rounds": 1,
-      "holes": 13,
-      "avg_gross_per_hole": 4.69,
-      "gir_hit": 5,
+      "rounds": 2,
+      "holes": 29,
+      "avg_gross_per_hole": 4.52,
+      "gir_hit": 11,
       "gir_pct": 38,
-      "fw_hit": 4,
-      "fw_eligible": 10,
-      "fw_pct": 40,
-      "ud_pct": 100,
-      "ud_n": 1,
-      "putts_per_18": 37.5,
+      "fw_hit": 10,
+      "fw_eligible": 22,
+      "fw_pct": 45,
+      "ud_pct": 45,
+      "ud_n": 11,
+      "putts_per_18": 35.4,
       "miss_tendency": "Left",
-      "miss_n": 4
+      "miss_n": 9
+    },
+    {
+      "name": "Naman Aggarwal",
+      "rounds": 1,
+      "holes": 16,
+      "avg_gross_per_hole": 4.75,
+      "gir_hit": 6,
+      "gir_pct": 38,
+      "fw_hit": 5,
+      "fw_eligible": 12,
+      "fw_pct": 42,
+      "ud_pct": 40,
+      "ud_n": 5,
+      "putts_per_18": 30.4,
+      "miss_tendency": "Left",
+      "miss_n": 7
     },
     {
       "name": "Sukhbir Singh",
@@ -130,6 +162,18 @@
       "games": 1,
       "format": "Fourball",
       "note": "Both submitted their own card for the same round (Aug 30). Sukhbir's card didn't include a Fmt column, so who-counted-what per hole isn't available, but both players' individual stats are now complete."
+    },
+    {
+      "pairing": "Aamer & Samridh (Sam)",
+      "games": 1,
+      "format": "Fourball",
+      "note": "Both submitted their own card for the same round (Sep 4). Sam's card logged who counted most holes, though several show an ambiguous 'S-A' mark instead of a clean A/B code \u2014 flagged for review."
+    },
+    {
+      "pairing": "Naman Aggarwal & Anmol",
+      "games": 1,
+      "format": "Unclear (Partner given, no Format checked)",
+      "note": "Naman's card names Anmol as partner (Sep 4) but no Format box was checked. Anmol's own card from around the same time doesn't name Naman as partner, so this pairing is one-sided and not fully confirmed."
     }
   ],
   "partnership_note": "Only appears once at least one player has logged a round with a named partner.",
@@ -357,19 +401,19 @@
           "has_hcp": true
         },
         "2": {
-          "gross": 5,
+          "gross": 4,
           "par": 4,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 1,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "3": {
-          "gross": 3,
+          "gross": 4,
           "par": 3,
-          "vs_par": 0,
-          "net": 2,
-          "net_vs_par": -1,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "4": {
@@ -397,30 +441,6 @@
           "has_hcp": true
         },
         "7": {
-          "gross": 5,
-          "par": 4,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 1,
-          "has_hcp": true
-        },
-        "8": {
-          "gross": 6,
-          "par": 5,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 0,
-          "has_hcp": true
-        },
-        "9": {
-          "gross": 5,
-          "par": 4,
-          "vs_par": 1,
-          "net": 4,
-          "net_vs_par": 0,
-          "has_hcp": true
-        },
-        "10": {
           "gross": 4,
           "par": 4,
           "vs_par": 0,
@@ -428,7 +448,23 @@
           "net_vs_par": 0,
           "has_hcp": true
         },
-        "11": {
+        "8": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "9": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "10": {
           "gross": 5,
           "par": 4,
           "vs_par": 1,
@@ -436,20 +472,28 @@
           "net_vs_par": 1,
           "has_hcp": true
         },
-        "12": {
+        "11": {
           "gross": 4,
-          "par": 3,
-          "vs_par": 1,
+          "par": 4,
+          "vs_par": 0,
           "net": 4,
-          "net_vs_par": 1,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "12": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "13": {
-          "gross": 3,
+          "gross": 5,
           "par": 4,
-          "vs_par": -1,
-          "net": 3,
-          "net_vs_par": -1,
+          "vs_par": 1,
+          "net": 5,
+          "net_vs_par": 1,
           "has_hcp": true
         },
         "14": {
@@ -461,11 +505,11 @@
           "has_hcp": true
         },
         "15": {
-          "gross": 6,
+          "gross": 4,
           "par": 5,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 0,
+          "vs_par": -1,
+          "net": 3,
+          "net_vs_par": -2,
           "has_hcp": true
         },
         "16": {
@@ -474,6 +518,22 @@
           "vs_par": 1,
           "net": 3,
           "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "17": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
+          "has_hcp": true
+        },
+        "18": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
           "has_hcp": true
         }
       },
@@ -609,27 +669,27 @@
           "has_hcp": true
         },
         "2": {
-          "gross": 4,
+          "gross": 3,
           "par": 4,
-          "vs_par": 0,
-          "net": 3,
-          "net_vs_par": -1,
+          "vs_par": -1,
+          "net": 2,
+          "net_vs_par": -2,
           "has_hcp": true
         },
         "3": {
-          "gross": 4,
+          "gross": 5,
           "par": 3,
-          "vs_par": 1,
-          "net": 3,
-          "net_vs_par": 0,
+          "vs_par": 2,
+          "net": 4,
+          "net_vs_par": 1,
           "has_hcp": true
         },
         "4": {
-          "gross": 6,
+          "gross": 5,
           "par": 5,
-          "vs_par": 1,
-          "net": 6,
-          "net_vs_par": 1,
+          "vs_par": 0,
+          "net": 5,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "5": {
@@ -649,11 +709,11 @@
           "has_hcp": true
         },
         "8": {
-          "gross": 6,
+          "gross": 5,
           "par": 5,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 0,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": -1,
           "has_hcp": true
         },
         "9": {
@@ -665,11 +725,11 @@
           "has_hcp": true
         },
         "10": {
-          "gross": 6,
+          "gross": 4,
           "par": 4,
-          "vs_par": 2,
-          "net": 6,
-          "net_vs_par": 2,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "11": {
@@ -689,11 +749,11 @@
           "has_hcp": true
         },
         "13": {
-          "gross": 5,
+          "gross": 4,
           "par": 4,
-          "vs_par": 1,
-          "net": 5,
-          "net_vs_par": 1,
+          "vs_par": 0,
+          "net": 4,
+          "net_vs_par": 0,
           "has_hcp": true
         },
         "15": {
@@ -702,6 +762,38 @@
           "vs_par": 1,
           "net": 5,
           "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "6": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": 4,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": 5,
+          "net_vs_par": 1,
+          "has_hcp": true
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": 3,
+          "net_vs_par": 0,
+          "has_hcp": true
+        },
+        "17": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": 3,
+          "net_vs_par": -1,
           "has_hcp": true
         }
       },
@@ -1142,8 +1234,284 @@
           "net_vs_par": 0,
           "has_hcp": true
         }
+      },
+      "Naman Aggarwal": {
+        "1": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "2": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "3": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "6": {
+          "gross": 3,
+          "par": 4,
+          "vs_par": -1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "7": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "8": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "10": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "11": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "12": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "13": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "15": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "16": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "17": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "18": {
+          "gross": 9,
+          "par": 5,
+          "vs_par": 4,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        }
+      },
+      "Aamer": {
+        "1": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "2": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "3": {
+          "gross": 4,
+          "par": 3,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "4": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "5": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "6": {
+          "gross": 5,
+          "par": 4,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "7": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "8": {
+          "gross": 6,
+          "par": 5,
+          "vs_par": 1,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "9": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "10": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "11": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "12": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "13": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "14": {
+          "gross": 6,
+          "par": 4,
+          "vs_par": 2,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "15": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "16": {
+          "gross": 3,
+          "par": 3,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "17": {
+          "gross": 4,
+          "par": 4,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        },
+        "18": {
+          "gross": 5,
+          "par": 5,
+          "vs_par": 0,
+          "net": null,
+          "net_vs_par": null,
+          "has_hcp": false
+        }
       }
     }
   },
-  "hole_performance_note": "Grid shows gross score vs. par per hole. Each cell is currently just one round per player \u2014 treat as an early signal, not a proven pattern, until repeat rounds confirm it. Handicap-adjusted net scoring data is still collected in the tracker for future use, just not shown here by default."
+  "hole_performance_note": "Net = gross minus 1 stroke on holes where Stroke Index \u2264 handicap (standard allocation). Handicaps are from the 2025 Season 4 roster \u2014 update if anyone's has since changed, and note Himanshu isn't on that roster (shown as vs-par only, not handicap-adjusted). Each cell is currently just one round \u2014 treat as an early signal, not a proven pattern, until repeat rounds confirm it."
 }
